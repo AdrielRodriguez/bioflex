@@ -70,7 +70,7 @@ export default function Home() {
             
             <div className="relative order-1 md:order-2">
               <Image
-                src="/foto.jpg"
+                src="/fotoo.jpg"
                 alt="Rollos de bolsa BIOFLEX"
                 width={600}
                 height={400}
