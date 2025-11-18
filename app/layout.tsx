@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "BIOFLEX - Menos residuos, más soluciones",
-  description: "Bolsa biodegradable hecha a base de maíz. Alta resistencia mecánica y apta para contacto indirecto con alimentos. Certificación ISO 17088.",
+  description: "Film biodegradable hecha a base de maíz. Alta resistencia mecánica y apta para contacto indirecto con alimentos. Certificación ISO 17088.",
   icons: {
     icon: "/logo.png",
     shortcut: "/logo.png",

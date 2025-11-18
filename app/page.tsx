@@ -31,7 +31,7 @@ export default function Home() {
               Menos residuos, más soluciones
             </h1>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 max-w-3xl mx-auto px-2">
-              Bolsa biodegradable hecha a base de maíz para un futuro más sostenible
+              Film biodegradable hecha a base de maíz para un futuro más sostenible
             </p>
           </div>
           
@@ -71,7 +71,7 @@ export default function Home() {
             <div className="relative order-1 md:order-2">
               <Image
                 src="/fotoo.jpg"
-                alt="Rollos de bolsa BIOFLEX"
+                alt="Rollos de Film BIOFLEX"
                 width={600}
                 height={400}
                 className="rounded-lg shadow-xl w-full h-auto"
@@ -213,7 +213,7 @@ export default function Home() {
           <div className="mb-6 sm:mb-8 flex justify-center">
             <Image
               src="/fotoo.jpg"
-              alt="Rollos de bolsa BIOFLEX Industrial Pesado"
+              alt="Rollos de Film BIOFLEX Industrial Pesado"
               width={800}
               height={500}
               className="rounded-lg shadow-xl w-full h-auto"
