@@ -35,48 +35,41 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center mt-8 sm:mt-12 lg:mt-16">
-            <div className="order-2 md:order-1">
-              <div className="bg-white rounded-lg shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
-                <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-                  <div className="bg-green-100 p-2 sm:p-3 rounded-full flex-shrink-0">
-                    <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="text-xs sm:text-sm text-gray-600">Año de Fabricación</p>
-                    <p className="text-xl sm:text-2xl font-bold text-green-700">2025</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2 sm:gap-3">
-                  <div className="bg-green-100 p-2 sm:p-3 rounded-full flex-shrink-0">
-                    <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="text-xs sm:text-sm text-gray-600">Material</p>
-                    <p className="text-lg sm:text-xl md:text-2xl font-bold text-green-700">Hecho a base de maíz</p>
-                  </div>
-                </div>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-green-700 mb-6 sm:mb-8 px-2 mt-8 sm:mt-12">MODELO: ESTÁNDAR</h2>
+          
+          <div className="mb-6 sm:mb-8 flex justify-center">
+            <Image
+              src="/medida-estandar.jpeg"
+              alt="Rollos de Film BIOFLEX"
+              width={800}
+              height={500}
+              className="rounded-lg shadow-xl w-full h-auto"
+              priority
+            />
+          </div>
+
+          <div className="bg-white rounded-lg shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
+            <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+              <div className="bg-green-100 p-2 sm:p-3 rounded-full flex-shrink-0">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
               </div>
-              
-              <div className="bg-green-600 text-white rounded-lg p-4 sm:p-6">
-                <p className="text-base sm:text-lg font-semibold mb-2">MODELO: ESTÁNDAR</p>
-                <p className="text-xs sm:text-sm opacity-90">Certificación ISO 17088</p>
+              <div>
+                <p className="text-xs sm:text-sm text-gray-600">Año de Fabricación</p>
+                <p className="text-xl sm:text-2xl font-bold text-green-700">2025</p>
               </div>
             </div>
-            
-            <div className="relative order-1 md:order-2">
-              <Image
-                src="/fotoo.jpg"
-                alt="Rollos de Film BIOFLEX"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-xl w-full h-auto"
-                priority
-              />
+            <div className="flex items-center gap-2 sm:gap-3">
+              <div className="bg-green-100 p-2 sm:p-3 rounded-full flex-shrink-0">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-xs sm:text-sm text-gray-600">Material</p>
+                <p className="text-lg sm:text-xl md:text-2xl font-bold text-green-700">Hecho a base de maíz</p>
+              </div>
             </div>
           </div>
         </div>
@@ -163,7 +156,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Servicios Incluidos */}
       <section id="servicios" className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-gray-50">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-green-700 mb-8 sm:mb-12 px-2">Servicios Incluidos</h2>
@@ -205,14 +197,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Modelo Industrial Pesado */}
       <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-white">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-green-700 mb-6 sm:mb-8 px-2">MODELO: INDUSTRIAL PESADO</h2>
           
           <div className="mb-6 sm:mb-8 flex justify-center">
             <Image
-              src="/fotoo.jpg"
+              src="/foto-industrial.jpeg"
               alt="Rollos de Film BIOFLEX Industrial Pesado"
               width={800}
               height={500}
@@ -220,7 +211,6 @@ export default function Home() {
             />
           </div>
 
-          {/* Banda gris con información */}
           <div className="bg-gray-200 rounded-lg p-4 sm:p-6 mb-8 sm:mb-12">
             <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-16">
               <div className="flex items-center gap-2 sm:gap-3">
@@ -242,7 +232,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Especificaciones Técnicas */}
           <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
             <div className="bg-gray-50 rounded-lg p-6 sm:p-8">
               <h3 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-4 sm:mb-6">Dimensiones</h3>
