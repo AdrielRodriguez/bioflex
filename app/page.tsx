@@ -48,27 +48,23 @@ export default function Home() {
             />
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
-            <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-              <div className="bg-green-100 p-2 sm:p-3 rounded-full flex-shrink-0">
-                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
+          <div className="bg-gray-200 rounded-lg p-4 sm:p-6 mb-8 sm:mb-12">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-16">
+              <div className="flex items-center gap-2 sm:gap-3">
+                <div className="bg-green-100 p-2 rounded-full flex-shrink-0">
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <span className="text-sm sm:text-base md:text-lg font-semibold text-gray-800 text-center">AÑO DE FABRICACIÓN: 2025</span>
               </div>
-              <div>
-                <p className="text-xs sm:text-sm text-gray-600">Año de Fabricación</p>
-                <p className="text-xl sm:text-2xl font-bold text-green-700">2025</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-2 sm:gap-3">
-              <div className="bg-green-100 p-2 sm:p-3 rounded-full flex-shrink-0">
-                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
-                </svg>
-              </div>
-              <div>
-                <p className="text-xs sm:text-sm text-gray-600">Material</p>
-                <p className="text-lg sm:text-xl md:text-2xl font-bold text-green-700">Hecho a base de maíz</p>
+              <div className="flex items-center gap-2 sm:gap-3">
+                <div className="bg-green-100 p-2 rounded-full flex-shrink-0">
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                  </svg>
+                </div>
+                <span className="text-sm sm:text-base md:text-lg font-semibold text-gray-800 text-center">HECHO A BASE DE MAÍZ</span>
               </div>
             </div>
           </div>
